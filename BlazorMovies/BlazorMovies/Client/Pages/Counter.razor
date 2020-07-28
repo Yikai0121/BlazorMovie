@@ -1,8 +1,13 @@
 ﻿@page "/counter"
+@inject SingletonService singleton;
+@inject TransientService transient;
+@inject IRepository repository;
 
 <h1>Counter</h1>
 
 <p>Current count: @currentCount</p>
+<p>singleton count: @singleton.Value</p>
+<p>transient count: @transient.Value</p>
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
@@ -12,22 +17,19 @@
 <MovieList Movies="movies"></MovieList>
 
 @code {
-
     private List<Movie> movies;
     protected async override Task OnInitializedAsync()
     {
         await Task.Delay(1000);
-        movies = new List<Movie>()
-    {
-    new Movie(){Title = "Joker",ReleaseDate = new DateTime(2020, 7, 1)},
-    new Movie(){Title = "Gold",ReleaseDate = new DateTime(2020, 1, 1)},
-    new Movie(){Title = "Fire",ReleaseDate = new DateTime(2020, 3, 1)}
-    };
+        movies = repository.GetMovies();
+
     }
     private int currentCount = 0;
 
     private void IncrementCount()
     {
         currentCount++;
+        singleton.Value = currentCount;
+        transient.Value = currentCount;
     }
 }

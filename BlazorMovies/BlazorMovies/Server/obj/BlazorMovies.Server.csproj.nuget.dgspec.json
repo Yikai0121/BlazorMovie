@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\k2lairrol\\Documents\\GitHub\\Blazor\\BlazorMovies\\BlazorMovies\\Server\\BlazorMovies.Server.csproj": {}
+    "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Server\\BlazorMovies.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\k2lairrol\\Documents\\GitHub\\Blazor\\BlazorMovies\\BlazorMovies\\Client\\BlazorMovies.Client.csproj": {
+    "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\BlazorMovies.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\k2lairrol\\Documents\\GitHub\\Blazor\\BlazorMovies\\BlazorMovies\\Client\\BlazorMovies.Client.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\BlazorMovies.Client.csproj",
         "projectName": "BlazorMovies.Client",
-        "projectPath": "C:\\Users\\k2lairrol\\Documents\\GitHub\\Blazor\\BlazorMovies\\BlazorMovies\\Client\\BlazorMovies.Client.csproj",
-        "packagesPath": "C:\\Users\\k2lairrol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\k2lairrol\\Documents\\GitHub\\Blazor\\BlazorMovies\\BlazorMovies\\Client\\obj\\",
+        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\BlazorMovies.Client.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\k2lairrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +27,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\k2lairrol\\Documents\\GitHub\\Blazor\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj": {
-                "projectPath": "C:\\Users\\k2lairrol\\Documents\\GitHub\\Blazor\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj"
+              "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj"
               }
             }
           }
@@ -80,17 +80,17 @@
         }
       }
     },
-    "C:\\Users\\k2lairrol\\Documents\\GitHub\\Blazor\\BlazorMovies\\BlazorMovies\\Server\\BlazorMovies.Server.csproj": {
+    "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Server\\BlazorMovies.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\k2lairrol\\Documents\\GitHub\\Blazor\\BlazorMovies\\BlazorMovies\\Server\\BlazorMovies.Server.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Server\\BlazorMovies.Server.csproj",
         "projectName": "BlazorMovies.Server",
-        "projectPath": "C:\\Users\\k2lairrol\\Documents\\GitHub\\Blazor\\BlazorMovies\\BlazorMovies\\Server\\BlazorMovies.Server.csproj",
-        "packagesPath": "C:\\Users\\k2lairrol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\k2lairrol\\Documents\\GitHub\\Blazor\\BlazorMovies\\BlazorMovies\\Server\\obj\\",
+        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Server\\BlazorMovies.Server.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\k2lairrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,11 +103,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\k2lairrol\\Documents\\GitHub\\Blazor\\BlazorMovies\\BlazorMovies\\Client\\BlazorMovies.Client.csproj": {
-                "projectPath": "C:\\Users\\k2lairrol\\Documents\\GitHub\\Blazor\\BlazorMovies\\BlazorMovies\\Client\\BlazorMovies.Client.csproj"
+              "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\BlazorMovies.Client.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\BlazorMovies.Client.csproj"
               },
-              "C:\\Users\\k2lairrol\\Documents\\GitHub\\Blazor\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj": {
-                "projectPath": "C:\\Users\\k2lairrol\\Documents\\GitHub\\Blazor\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj"
+              "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj"
               }
             }
           }
@@ -148,17 +148,17 @@
         }
       }
     },
-    "C:\\Users\\k2lairrol\\Documents\\GitHub\\Blazor\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj": {
+    "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\k2lairrol\\Documents\\GitHub\\Blazor\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj",
         "projectName": "BlazorMovies.Shared",
-        "projectPath": "C:\\Users\\k2lairrol\\Documents\\GitHub\\Blazor\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj",
-        "packagesPath": "C:\\Users\\k2lairrol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\k2lairrol\\Documents\\GitHub\\Blazor\\BlazorMovies\\BlazorMovies\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\k2lairrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

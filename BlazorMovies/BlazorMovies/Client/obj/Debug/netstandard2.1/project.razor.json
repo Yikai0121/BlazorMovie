@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\k2lairrol\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\BlazorMovies.Client.csproj",
+  "FilePath": "c:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\BlazorMovies.Client.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "3.0",
@@ -53,55 +53,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazorMovies.Client.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "BlazorMovies.Client.Pages.Counter",
-        "AssemblyName": "BlazorMovies.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorMovies.Client.Pages.Counter"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "BlazorMovies.Client.Pages.Counter",
-        "AssemblyName": "BlazorMovies.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorMovies.Client.Pages.Counter",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorMovies.Client.Pages.Counter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -200,6 +151,55 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazorMovies.Client.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "BlazorMovies.Client.Pages.Counter",
+        "AssemblyName": "BlazorMovies.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorMovies.Client.Pages.Counter"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "BlazorMovies.Client.Pages.Counter",
+        "AssemblyName": "BlazorMovies.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorMovies.Client.Pages.Counter",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorMovies.Client.Pages.Counter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -973,85 +973,6 @@
       },
       {
         "Kind": "Components.Component",
-        "Name": "BlazorMovies.Client.Shared.MovieList",
-        "AssemblyName": "BlazorMovies.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieList",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Movies",
-            "TypeName": "System.Collections.Generic.List<BlazorMovies.Shared.Entities.Movie>",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Movies"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorMovies.Client.Shared.MovieList"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "BlazorMovies.Client.Shared.MovieList",
-        "AssemblyName": "BlazorMovies.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorMovies.Client.Shared.MovieList",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Movies",
-            "TypeName": "System.Collections.Generic.List<BlazorMovies.Shared.Entities.Movie>",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Movies"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorMovies.Client.Shared.MovieList",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
         "Name": "BlazorMovies.Client.Shared.NavMenu",
         "AssemblyName": "BlazorMovies.Client",
         "Documentation": null,
@@ -1175,6 +1096,85 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazorMovies.Client.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "BlazorMovies.Client.Shared.MovieList",
+        "AssemblyName": "BlazorMovies.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieList",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Movies",
+            "TypeName": "System.Collections.Generic.List<BlazorMovies.Shared.Entities.Movie>",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "Movies"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorMovies.Client.Shared.MovieList"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "BlazorMovies.Client.Shared.MovieList",
+        "AssemblyName": "BlazorMovies.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorMovies.Client.Shared.MovieList",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Movies",
+            "TypeName": "System.Collections.Generic.List<BlazorMovies.Shared.Entities.Movie>",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "Movies"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorMovies.Client.Shared.MovieList",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -17229,63 +17229,63 @@
   "RootNamespace": "BlazorMovies.Client",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\k2lairrol\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\App.razor",
-      "TargetPath": "App.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\k2lairrol\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\Shared\\NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\k2lairrol\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\Shared\\SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\k2lairrol\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\k2lairrol\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\Shared\\GenericList.razor",
+      "FilePath": "c:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\Shared\\GenericList.razor",
       "TargetPath": "Shared\\GenericList.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\k2lairrol\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\k2lairrol\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\Shared\\DummyTextvox.razor",
-      "TargetPath": "Shared\\DummyTextvox.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\k2lairrol\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\Shared\\IndividualMovie.razor",
-      "TargetPath": "Shared\\IndividualMovie.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\k2lairrol\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\Shared\\MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\k2lairrol\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\Pages\\Index.razor",
+      "FilePath": "c:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\Pages\\Index.razor",
       "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\k2lairrol\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\_Imports.razor",
+      "FilePath": "c:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
     },
     {
-      "FilePath": "c:\\Users\\k2lairrol\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\Shared\\MovieList.razor",
+      "FilePath": "c:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\Shared\\IndividualMovie.razor",
+      "TargetPath": "Shared\\IndividualMovie.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\Pages\\Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\Shared\\MovieList.razor",
       "TargetPath": "Shared\\MovieList.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\Shared\\SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\Pages\\FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\Shared\\DummyTextvox.razor",
+      "TargetPath": "Shared\\DummyTextvox.razor",
       "FileKind": "component"
     }
   ],

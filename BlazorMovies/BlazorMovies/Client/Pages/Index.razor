@@ -1,4 +1,5 @@
 ﻿@page "/"
+@inject IRepository repository
 
 
 
@@ -37,12 +38,7 @@
     protected async override Task OnInitializedAsync()
     {
         await Task.Delay(1000);
-        movies = new List<Movie>()
-            {
-            new Movie(){Title = "Spider-Man",ReleaseDate = new DateTime(2020, 7, 1)},
-            new Movie(){Title = "Iron-Man",ReleaseDate = new DateTime(2020, 1, 1)},
-            new Movie(){Title = "Super-Man",ReleaseDate = new DateTime(2020, 3, 1)}
-            };
+        movies = repository.GetMovies();
     }
 
 }
