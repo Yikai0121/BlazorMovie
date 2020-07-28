@@ -1,0 +1,45 @@
+﻿@typeparam TItem
+
+@if(List == null)
+    {
+       @if(Nulltemplate != null)
+       {
+            @Nulltemplate
+       }
+       else
+       {
+            <img src="https://media0.giphy.com/media/3o7bu3XilJ5BOiSGic/giphy.gif?cid=ecf05e476fdwe6b5ia1ycjkub00cwwgl0d091a42nvtwigsr&rid=giphy.gif">
+       }
+    }
+else if(List.Count == 0)
+    {
+        
+        @if(Emptytemplate != null)
+       {
+            @Emptytemplate
+       }
+        else
+       {
+           <text>沒有電影目錄</text>
+       }
+    }
+else
+    {
+        
+        
+
+    @foreach (var elment in List)
+        {   
+            @ElementTemplate(elment)
+        }
+        
+    }   
+
+@code
+{
+    [Parameter] public RenderFragment Nulltemplate { get; set; }
+    [Parameter] public RenderFragment Emptytemplate { get; set; }
+    [Parameter]
+    public RenderFragment<TItem> ElementTemplate { get; set; }
+    [Parameter] public List<TItem> List { get; set; }
+}
