@@ -1,35 +1,43 @@
 ﻿@page "/counter"
-@inject SingletonService singleton;
-@inject TransientService transient;
-@inject IRepository repository;
+ 
 
-<h1>Counter</h1>
+<h1 style="color:@Appstate.Color">Counter</h1>
 
-<p>Current count: @currentCount</p>
+
+<div style="display:flex">
+    <div style="width:150px">
+        <select @bind="Appstate.Color" class="form-control" style="margin-top:15px">
+            <option value="green">綠色</option>
+            <option value="red">紅色</option>
+            <option value="blue">藍色</option>
+        </select>
+    </div>
+</div>
+<div style="display:flex">
+    <div style="width:150px">
+        <select @bind="Appstate.Size" class="form-control" style="margin-top:15px">
+            <option value="12px">12</option>
+            <option value="16px">16</option>
+            <option value="18px">18</option>
+        </select>
+    </div>
+</div>
+
+
+
+<p style="color:@Appstate.Color;font-size:@Appstate.Size">Current count: @currentCount</p>
 <p>singleton count: @singleton.Value</p>
 <p>transient count: @transient.Value</p>
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<button class="btn btn-primary" @onclick="IncrementCountJavaScript">Click me javascript</button>
 
 <input type="number" @bind="currentCount"/> @* 數據綁定bind *@
 
 
-<MovieList Movies="movies"></MovieList>
+
 
 @code {
-    private List<Movie> movies;
-    protected async override Task OnInitializedAsync()
-    {
-        await Task.Delay(1000);
-        movies = repository.GetMovies();
 
-    }
-    private int currentCount = 0;
-
-    private void IncrementCount()
-    {
-        currentCount++;
-        singleton.Value = currentCount;
-        transient.Value = currentCount;
-    }
+   
 }

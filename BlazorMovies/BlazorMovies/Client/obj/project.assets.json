@@ -1653,19 +1653,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\k2lairrol\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\BlazorMovies.Client.csproj",
+      "projectUniqueName": "C:\\Users\\k2lairrol\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\BlazorMovies.Client.csproj",
       "projectName": "BlazorMovies.Client",
-      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\BlazorMovies.Client.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\obj\\",
+      "projectPath": "C:\\Users\\k2lairrol\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\BlazorMovies.Client.csproj",
+      "packagesPath": "C:\\Users\\k2lairrol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\k2lairrol\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\k2lairrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1678,8 +1678,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj": {
-              "projectPath": "C:\\Users\\user\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj"
+            "C:\\Users\\k2lairrol\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj": {
+              "projectPath": "C:\\Users\\k2lairrol\\Documents\\GitHub\\BlazorMovie\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj"
             }
           }
         }

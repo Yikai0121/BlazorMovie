@@ -1,21 +1,52 @@
-﻿<input type="checkbox" @bind="displayButtons"/>
+﻿@inject IJSRuntime js
+<input type="checkbox" @bind="displayButtons" />
 @* <input type="checkbox" @onchange="@(() => displayButtons = !displayButtons)"/>
     <input type="checkbox" @bind="displayButtons"/>  *@
 
 <GenericList List="Movies">
     <ElementTemplate Context="movie">
-        <IndividualMovie Movies="movie" DisplayButtons="displayButtons" DeleteMovie="DeletMovie"/>
+        <IndividualMovie Movies="movie" DisplayButtons="displayButtons" DeleteMovie="DeletMovie" />
     </ElementTemplate>
 </GenericList>
 
+
+<Confirmation @ref="confirmation" onCancel="onCancel" onConfirm="onConfirm">
+    <div>確定要刪除 @movieToBeDelete.Title 嗎? </div>
+</Confirmation>
+
+
 @code
 {
+    Confirmation confirmation;
     [Parameter] public List<Movie> Movies { get; set; }
 
-    bool displayButtons = false;
+    bool displayButtons = true;
 
+    Movie movieToBeDelete;
     private void DeletMovie(Movie movie)
     {
-        Movies.Remove(movie);
+        movieToBeDelete = movie;
+        confirmation.Show();
+        //await js.MyFunction("調用JS方法");
+        //var confirmed = await js.Confirm($"確定要刪除嗎{movie.Title}?");
+
+        //if (confirmed)
+        //{
+        //    Movies.Remove(movie);
+        //}
+
     }
+    void onConfirm()
+    {
+        Movies.Remove(movieToBeDelete);
+        confirmation.Hide();
+        movieToBeDelete = null;
+    }
+    void onCancel()
+    {
+        confirmation.Hide();
+        movieToBeDelete = null;
+
+    }
+
 }

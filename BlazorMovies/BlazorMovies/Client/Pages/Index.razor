@@ -1,44 +1,52 @@
 ﻿@page "/"
 @inject IRepository repository
+@inject SingletonService singleton
+@using static BlazorMovies.Client.Shared.MainLayout;
 
-
-
+<p style="color:@Appstate.Color;font-size:@Appstate.Size">ingleton Count : @singleton.Value</p>
 <div>
     <h3>Movie</h3>
-    <MovieList Movies="movies" >
-      
-       
+    <MovieList Movies="movies">
+
+
     </MovieList>
-    
+
+
+    <button @onclick="AddNewMovie">新增電影</button>
     <DummyTextvox placeholder="Movie name" disabled="true"></DummyTextvox>
-    
-        
-        
-        
-        @* @foreach (var item in movies)
+
+
+
+
+    @* @foreach (var item in movies)
         {
             <p>Title : @((MarkupString)item.Title)</p> //MarkupString
             <p>ReleaseDate : @item.ReleaseDate.ToString("yyyy dd mm")</p>
         } *@
-            @* @for (int i = 0; i < movies.Count; i++)
+    @* @for (int i = 0; i < movies.Count; i++)
         {
             <div style="background-color: @(i % 2 == 0 ? "blue" : "red")">
                 <p>@(i+1))Title : <b>@movies[i].Title</b></p>
                 <p>ReleaseDate : <b>@movies[i].ReleaseDate.ToString("yyyy dd mm")</b></p>
             </div>
         } *@
-    
-    
+
+
 
 
 </div>
 
 @code{
+    [CascadingParameter] public Appstate Appstate { get; set; }
     private List<Movie> movies;
     protected async override Task OnInitializedAsync()
     {
         await Task.Delay(1000);
         movies = repository.GetMovies();
+    }
+    private void AddNewMovie()
+    {
+        movies.Add(new Movie { Title = "New Movie", ReleaseDate = DateTime.Today });
     }
 
 }
